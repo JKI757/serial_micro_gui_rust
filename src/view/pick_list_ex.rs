@@ -29,7 +29,7 @@ impl Sandbox for Example {
     fn title(&self) -> String {
         String::from("Pick list - Iced")
     }
-
+            
     fn update(&mut self, message: Message) {
         match message {
             Message::LanguageSelected(language) => {

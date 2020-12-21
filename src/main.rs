@@ -1,13 +1,13 @@
 mod serial_talker;
-mod gui;
+mod view;
 
 pub use crate::serial_talker::*;
 
-pub use crate::gui::*;
+pub use crate::view::*;
 
 fn main(){
 	let current_ports = serial_talker::get_ports();
 		
-//	gui::run_iced_tour();
-	gui::run_pick_list();
+	view::run_iced_tour();
+//	view::run_pick_list();
 }
