@@ -28,6 +28,7 @@ dependencies = [
  "clap",
  "env_logger",
  "iced",
+ "iced_native",
  "serial",
  "serialport",
  "termion",
